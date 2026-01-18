@@ -1,0 +1,28 @@
+{
+  "name": "aoe4-overlay",
+  "version": "1.0.0",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taalhaakaagaan/aoe4-auto-villager.git"
+  },
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "build": {
+    "appId": "com.aoe4.overlay",
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Age of Empires IV Build Order Overlay",
+  "devDependencies": {
+    "electron": "^40.0.0",
+    "electron-builder": "^24.9.1"
+  }
+}
